@@ -1,10 +1,15 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import {Image} from 'semantic-ui-react'
+import poster from "./poster.jpg"
+
+import comments from './Comment.js'
 
 function App() {
   return (
-    <p> 안녕하세요! </p>
+    <div>
+    <Image src = {poster} centered/>
+    <Comments/>
+    </div>
   );
 }
 
